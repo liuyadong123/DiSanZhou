@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tex1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="产品介绍"
+        android:textSize="30dp"
+        />
+
+    <WebView
+        android:id="@+id/webView12"
+        android:layout_below="@+id/tex1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    </WebView>
+    <RelativeLayout
+        android:layout_marginTop="600dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        >
+        <ImageView
+            android:id="@+id/gouwuche"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@mipmap/ic_launcher"
+            />
+        <ImageView
+            android:id="@+id/mai"
+            android:layout_below="@+id/gouwuche"
+            android:layout_marginTop="20dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@mipmap/ic_launcher"
+            />
+    </RelativeLayout>
+
+
+</RelativeLayout>
